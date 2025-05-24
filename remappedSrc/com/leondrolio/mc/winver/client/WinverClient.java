@@ -6,6 +6,5 @@ import net.fabricmc.api.ClientModInitializer;
 public class WinverClient implements ClientModInitializer {
   @Override
   public void onInitializeClient() {
-    System.out.println("Client initialised!");
   }
 }
