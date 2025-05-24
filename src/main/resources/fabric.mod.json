@@ -5,7 +5,7 @@
   "name": "Winver",
   "description": "Show the version string in the top left corner of the screen.",
   "authors": [
-    "7coil"
+    "7coil",
     "FallingUser"
   ],
   "contact": {
