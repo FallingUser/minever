@@ -1,4 +1,4 @@
-package com.leondrolio.mc.winver;
+package com.leondrolio.mc.minever;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -9,6 +9,6 @@ public class Winver implements ModInitializer {
     // However, some things (like resources) may still be uninitialized.
     // Proceed with mild caution.
 
-    System.out.println("Hello Fabric world!");
+    System.out.println("Installed The MineVer Mod Successfully!");
   }
 }
