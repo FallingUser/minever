@@ -1,4 +1,4 @@
-package com.leondrolio.mc.winver.client;
+package com.leondrolio.mc.minever.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
