@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.leondrolio.mc.winver.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "package": "com.leondrolio.mc.minever.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
   "client": [
-    "WinverHud"
+    "MineVerHud"
   ],
   "injectors": {
     "defaultRequire": 1
