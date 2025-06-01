@@ -15,7 +15,7 @@ public class WinverHud {
   @Inject(method = "render", at = @At("RETURN"))
   public void onRender(DrawContext context, float tickDelta, CallbackInfo info) {
     MinecraftClient client = MinecraftClient.getInstance();
-    if (!client.options.debugEnabled) {
+    if (!client.getDebugHud().shouldShowDebugHud()) {
       String version = SharedConstants.getGameVersion().getName();
       Text text = Text.literal(String.format("Minecraft %s", version));
       context.drawTextWithShadow(client.textRenderer, text, 2, 2, -1);
