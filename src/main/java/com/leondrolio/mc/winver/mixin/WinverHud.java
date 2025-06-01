@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(InGameHud.class)
 public class WinverHud {
-  @Inject(method = "render", at = @At("RETURN"))
+  @Inject(method = "render", at = @At("RETURn"))
   public void onRender(DrawContext context, float tickDelta, CallbackInfo info) {
     MinecraftClient client = MinecraftClient.getInstance();
     if (!client.getDebugHud().shouldShowDebugHud()) {
