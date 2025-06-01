@@ -18,7 +18,7 @@ public class WinverHud {
     if (!client.getDebugHud().shouldShowDebugHud()) {
       String version = SharedConstants.getGameVersion().getName();
       Text text = Text.literal(String.format("Minecraft %s", version));
-      context.drawTextWithShadow(client.textRenderer, text, 2, 2, -1);
+      context.drawTextWithShadow(client.textRenderer, text, 2, 2, 0xFFFFFF);
     }
   }
 }
