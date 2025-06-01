@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "winver",
+  "id": "minever",
   "version": "${version}",
-  "name": "Winver",
+  "name": "MineVer",
   "description": "Show the version string in the top left corner of the screen.",
   "authors": [
     "7coil",
@@ -13,23 +13,23 @@
     "repo": "https://github.com/7coil/winver-mc"
   },
   "license": "MIT",
-  "icon": "assets/winver/icon.png",
+  "icon": "assets/minever/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.leondrolio.mc.winver.client.WinverClient"
+      "com.leondrolio.mc.minever.client.MineVerClient"
     ],
     "main": [
-      "com.leondrolio.mc.winver.Winver"
+      "com.leondrolio.mc.minever.MineVer"
     ]
   },
   "mixins": [
-    "winver.mixins.json"
+    "minever.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.8",
+    "fabricloader": ">=0.15.0",
     "fabric": "*",
     "minecraft": "1.20.*",
-    "java": ">=17"
+    "java": ">=21"
   }
 }
